@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int length, breadth;
+    float requiredLength, requiredQuantity;
+    scanf("%d %d", &length, &breadth);
+
+    requiredLength = 2 * (length + breadth);
+    requiredQuantity = length * breadth;
+
+    printf("Required length is %.2fm\n", requiredLength);
+    printf("Required quantity of carpet is %.2fsqm\n", requiredQuantity);
+
+    return 0;
+}
