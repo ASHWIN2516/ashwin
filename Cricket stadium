@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int length, breadth;
+    int requiredLength, requiredQuantity;
+
+    scanf("%d %d", &length, &breadth);
+
+    requiredLength = 2 * (length + breadth);
+    requiredQuantity = length * breadth;
+
+    printf("%d\n", requiredLength);
+    printf("%d\n", requiredQuantity);
+
+    return 0;
+}
